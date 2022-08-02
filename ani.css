@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+
+
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(aniket3.jpg);
+    background-position: center;
+    position:relative;
+    overflow: hidden;
+    animation-name: aniket;
+}
+
+.hello{
+    color: aliceblue;
+   
+   
+   background-color: transparent;
+    
+    margin: auto;
+    position: relative;
+    transform:  translateY(-50%);
+    z-index: 2;
+    top: 60%;
+    left: 8%;
+
+    animation-name: aniket;
+
+
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+
+
+}
+.sign{
+    background-color: transparent;
+    position: relative;
+    margin-bottom: auto;
+    top: 70%;
+    animation-name: aniket;
+    outline:none;
+    padding: 10px;
+    border: 1px solid rgb(250, 247, 247);
+    border-radius: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    align-items: center;
+    
+
+}
+.navbar{
+    width: 85%;
+    height: 15%;margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: rgb(241, 241, 241);
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    animation-name: aniket;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+
+
+}
+.content{
+    color: aliceblue;
+    position: absolute;
+    background-color: transparent;
+    
+    width: 100px;
+    height: 250px;
+    left: 8%;
+    
+    top: 60%;
+    transform: translateY(-50%);
+  
+    
+
+
+}
+
+@keyframes aniket{
+    from{
+width: 200px;        
+
+    }
+    to{
+width: 400px;
+    }
+}
