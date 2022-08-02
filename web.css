@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+
+
+
+body{
+    background-image: url("aniket1.img");
+    padding: 0;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 48px;
+    text-shadow: 18px;
+    font-size: 27px;
+    display: flex;
+    transition: .6s;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    position:center;
+    animation:text_reveal 1s ease forwards ;
+    -webkit-text-stroke:0.3vw #df0e6f;
+    text-transform: uppercase;
+    animation: .1s aniket;
+    animation-delay: .5s;
+    font-size: 9vw;
+
+
+
+
+   
+}
+
+
+
+
+.li{
+    
+    display: center;
+    position: relative;
+    transition: .6s;
+    margin:0% auto ;
+    animation:  .1s aniket;
+    -webkit-text-stroke: rgb(230, 25, 151);
+
+    
+}
+
+nav ul {
+    list-style-type: none;
+    transition: .5s;
+    font-family: 'Roboto', sans-serif;
+    animation:text_reveal .1s ease forwards ;
+    background-color: transparent;
+    animation-delay: .2s;
+  
+
+}
+
+h1.demon{
+    
+    text-align: center;
+    animation: text_reveal .1s ease forwards ;
+    font-size: xx-large;
+    color: rgb(219, 219, 219);
+    text-shadow: 015px;
+    display: center;
+    height: 100%;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 6% auto;
+    background-position: center;
+    background:transparent;
+    animation-delay: .1s;
+    
+    
+}
+  
+
+.logininfo {
+    background-color: rgb(0, 255, 42);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: auto;
+    height: 50px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.log{
+    height: 100%;
+    width:100% ;
+    
+    
+    background-position: center;
+    background-size:cover ;
+    position: absolute;
+}
+   
+
+.form-box{
+    animation: text_reveal_box;
+    animation-delay: .2s;
+    width: 370px;
+    height: 485px;
+    position: relative;
+    margin: 6% auto;
+    background-image: url(aniket2.jpg) ;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.toggle-button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    -webkit-text-stroke:0.3vw #278ae6
+}
+.button-box{
+    width: 220px;
+    margin: 36px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px red;
+    border-radius: 30px;
+
+}
+.toggle-btn{
+    padding: 9px 30px ;
+    cursor:pointer ;
+    background: transparent ;
+    border: 0;
+    outline: 1px;
+
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient( to right,rgb(80, 66, 206),rgb(179, 212, 179));
+    border-radius: 25px;
+    transition: .5s;
+    color: aliceblue;
+}
+.input{
+    top: 180px;
+    width: 270px;
+    transition: .5s;
+
+}
+.field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px rgb(233, 233, 233);
+    color: rgb(179, 31, 117);
+    background: none;
+    outline: rgb(20, 19, 19);
+    
+}
+.submit-btns{
+    width: 80%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: linear-gradient( to right,rgb(201, 0, 0),green);
+    border: 0;
+    outline: none;
+    box-shadow: red;
+    border-radius: 30px;
+}
+
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    color: aliceblue;
+
+
+}
+.field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: transparent;
+    color: aliceblue;
+}
+.submit-btns{
+    width: 80%;
+    padding: 10px 25px ;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:linear-gradient( to right,rgb(145, 98, 29),rgb(47, 194, 47)) ;
+    border: 0 ;
+    outline: none;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+
+}
+.span{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+
+}
+.BTN{
+    background:transparent;
+    color: rgb(230, 230, 230);
+}
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes aniket{
+    from{
+width: 200px;        
+
+    }
+    to{
+width: 400px;
+    }
+}
